@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 
 # read CSV file
 def read_csv(file_path):
-    with open(file_path, mode='r') as file:
+    with open(file_path, 'r') as file:
         csv_reader = csv.DictReader(file)
-        orders = [row for row in csv_reader]
+        for row in csv_reader:
+            orders = []
+            orders.append(row)
     return orders
 
 # quick sort implementation
