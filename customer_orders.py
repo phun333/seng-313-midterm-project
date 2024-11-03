@@ -90,11 +90,11 @@ def main():
         
         # measure quick sort performance
         quick_sorted_orders, quick_sort_time = measure_performance(quick_sort, orders, 'Order Amount')
-        print(f"\nQuick Sort Time: {quick_sort_time:.6f} seconds")
+        print(f"\nQuick Sort Time: {quick_sort_time:.20f} seconds")
         
         # measure merge sort performance
         merge_sorted_orders, merge_sort_time = measure_performance(merge_sort, orders, 'Order Amount')
-        print(f"Merge Sort Time: {merge_sort_time:.6f} seconds")
+        print(f"Merge Sort Time: {merge_sort_time:.20f} seconds")
         
         # print top 5 sorted orders for verification
         print("\nTop 5 Orders by Quick Sort:")
