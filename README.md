@@ -9,3 +9,10 @@ my midterm project of Analysis of Algorithms lecture.
 ## product search for online store with binary search and linear search
 
 ![alt text](figures/product_catalog_figure.png)
+
+## things to add
+
+- explanation part in detail
+- better the durations of the graphs and the details of the graph
+- requirements for virtual env
+- try to write the code more clean
